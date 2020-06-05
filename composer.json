@@ -1,0 +1,52 @@
+{
+  "name": "mavs1971/yii2-app-advanced-startup-mavs",
+  "description": "Yii 2 Practical Advanced Application Template (Startup Kit)",
+  "keywords": [
+    "yii2",
+    "framework",
+    "practical",
+    "application template",
+    "advanced"
+  ],
+  "type": "project",
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "mavs",
+      "email": "mvillalonga@gmail.com",
+      "homepage": "http://mavs1971.github.io/yii2-app-advanced-startup-mavs",
+      "role": "Developer"
+    }
+  ],
+
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6.0",
+    "yiisoft/yii2": "*",
+    "yiisoft/yii2-bootstrap": "*",
+    "yiisoft/yii2-swiftmailer": "*",
+    "mavs1971/yii2-mavsuser": "*",
+    "abhi1693/yii2-config": "1.0.0",
+    "abhi1693/yii2-installer": "*",
+    "abhi1693/yii2-system-info": "*",
+    "raoul2000/yii2-bootswatch-asset": "*",
+    "kartik-v/yii2-widget-sidenav": "*",
+    "kartik-v/yii2-widget-alert": "*",
+    "wbraganca/yii2-dynamicform": "*"
+  },
+  "require-dev": {
+    "yiisoft/yii2-codeception": "*",
+    "yiisoft/yii2-debug": "*",
+    "yiisoft/yii2-gii": "*",
+    "yiisoft/yii2-faker": "*"
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
