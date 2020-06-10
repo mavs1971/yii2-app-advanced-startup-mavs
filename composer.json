@@ -24,7 +24,7 @@
    "php": ">=5.6.0",
     "yiisoft/yii2": "~2.0.14",
     "yiisoft/yii2-bootstrap": "~2.0.0",
-    "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0"
+    "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
     "mavs1971/yii2-mavsuser": "*",
     "abhi1693/yii2-config": "1.0.0",
     "abhi1693/yii2-installer": "*",
